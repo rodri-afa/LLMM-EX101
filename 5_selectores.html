@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;700&display=swap" rel="stylesheet" />
+        <title>Selectores</title>
+
+        <style>
+            /*todos los elementos*/
+             {
+                padding: 0;
+                margin: 0;
+                box-sizing: border-box;
+                font-family: "Roboto Mono", monospace;
+            }
+            /* los h2 */
+             {
+                font-size: 32px;
+                margin-bottom: 16px;
+            }
+            /*elementos con clase contenedor*/
+             {
+                max-width: 300px;
+                padding: 12px;
+                padding-bottom: 24px;
+                margin: 24px auto;
+                background-color: rgb(255, 237, 164);
+                border: 3px solid black;
+                box-shadow: 6px 6px 1px black;
+            }
+            /*los botones dentro de los contenedores*/
+             {
+                padding: 12px 16px;
+                color: white;
+                background-color: rgb(99, 37, 223);
+                border: 3px solid black;
+                text-decoration: none;
+                font-weight: 800;
+                text-transform: uppercase;
+                margin-top: 24px;
+                text-align: center;
+            }
+            /*los botones dentro de los contenedores al pasar el raton por encima*/
+             {
+                box-shadow: 6px 6px 1px black;
+            }
+            /* todos los hijos directos de los contenedores */
+             {
+                display: block;
+            }
+            /* los contenedores impares  */
+             {
+                background-color: rgb(203, 177, 255);
+            }
+            /* los <a> hijos del primer contenedor */
+             {
+                background-color: rgb(244, 209, 69);
+                color: black;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="contenedor">
+            <h2>hello world</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi praesentium reprehenderit modi?</p>
+            <a href="#">Continue</a>
+        </div>
+        <div class="contenedor">
+            <h2>hello world</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi praesentium reprehenderit modi?</p>
+            <a href="#">Continue</a>
+        </div>
+    </body>
+</html>
